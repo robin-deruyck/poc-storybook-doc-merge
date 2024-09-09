@@ -25,7 +25,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: [self-hosted, decathlon]
+    runs-on: [self-hosted]
     timeout-minutes: 15
     steps:
       - name: Checkout
